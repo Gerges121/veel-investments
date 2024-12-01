@@ -1,0 +1,46 @@
+.zedTopImages{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+
+}
+.zedImage1{
+  grid-column: span 2;
+  grid-row: span 2;
+  width: 590px;
+  height: 396px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: url(../../img/im3.webp) lightgray 50% / cover no-repeat;
+}
+.zedImage2 {
+  width: 283px;
+  height: 190px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: url(../../img/im3.webp) lightgray 50% / cover no-repeat;
+}
+
+.zedImage3 {
+  width: 283px;
+  height: 190px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: url(../../img/im3.webp) lightgray 50% / cover no-repeat;
+}
+.zedImage4 {
+  width: 283px;
+  height: 190px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: url(../../img/im3.webp) lightgray 50% / cover no-repeat;
+}
+.zedImage5 {
+  width: 283px;
+  height: 190px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: url(../../img/im3.webp) lightgray 50% / cover no-repeat;
+
+}
+

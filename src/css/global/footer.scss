@@ -1,0 +1,209 @@
+iframe{
+  border: none;
+  height: max-content;
+}
+.veelSubscription iframe{
+  height: 200px;
+}
+.quickLinksHeader svg{
+  display: none;
+}
+.cntactUsHeader svg{
+  display: none;
+}
+.veelFooter{
+  width: 100%;
+  height: 355px;
+  flex-shrink: 0;
+  background: #231F20;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+}
+.logoandSocial{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.logoandSocial iframe{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 130px;
+}
+.contactUs{
+  color: white;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+.veelPhoneCall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 4px;
+  border: 1px solid #D1B671;
+  width: 141px;
+  height: 30px;
+}
+.veelGmailContent{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.veelLocationContent{
+  display: flex;
+  gap: 10px;
+  align-items: start;
+}
+.contactUsHeader{
+  color: #FFF;
+  text-align: right;
+  font-family: Almarai;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 157.143% */
+}
+.veelGmailContent{
+  color: #FFF;
+  text-align: right;
+  font-family: Almarai;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+
+
+.quickLinks {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+}
+.quickLinksList ul{
+  list-style: none;
+
+}
+.quickLinksList li{
+  color: #FFF;
+  text-align: right;
+  font-family: Almarai;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 142.857% */
+}
+.quickLinksHeader{
+  color: #FFF;
+  text-align: right;
+  font-family: Almarai;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 157.143% */
+}
+.quickLinksList a{
+  color: #FFF;
+  text-align: right;
+  font-family: Almarai;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 142.857% */
+  text-decoration: none;
+}
+.goldenLine{
+  height: 3.932px;
+  flex-shrink: 0;
+  background: #D1B671;
+  position: absolute;
+  bottom: 10px;
+}
+.veelLines{
+  display: flex;
+  justify-content: center;
+position: relative;
+}
+
+
+@media screen and (min-width: 768px) {
+  .veelSubscription iframe{
+    width: 276px;
+    height: 205px;
+  }
+  .quickLinksHeader svg{
+    display: none;
+  }
+  .cntactUsHeader svg{
+    display: none;
+  }
+  .logo img{
+    width: 80px;
+    height: 80px;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+
+  .veelFooter{
+    height: 500px;
+
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .quickLinksList{
+    display: none;
+  }
+  .veelGmailContent{
+    display: none;
+  }
+  .veelLocationContent{
+    display: none ;
+  }
+  .veelPhoneCall{
+    display: none;
+  }
+  .cntactUsHeader{
+    display: flex;
+    justify-content: center;
+  }
+  .quickLinksHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 220px;
+  }
+  .cntactUsHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+  }
+  .quickLinksHeader svg{
+    display: flex;
+  }
+  .cntactUsHeader svg{
+    display: flex;
+  }
+  .goldenLine{
+    width: 390px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+  .veelLines{
+    width: 394px;
+
+  }
+}

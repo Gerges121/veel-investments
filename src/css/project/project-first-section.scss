@@ -1,0 +1,26 @@
+.titleWithImageContent{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.firstSectionLoc{
+  color: #707070;
+  font-family: Almarai;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+}
+.firstSectionTitleLocCta h2{
+  color: #000;
+  text-align: center;
+  font-family: Almarai;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+}
+.titleWithImage{
+  display: flex;
+  justify-content: space-between;
+}

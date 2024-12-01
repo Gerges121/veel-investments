@@ -1,0 +1,19 @@
+.facilitiesServicesSectionContent h2{
+  border-right: solid 6px  #D1B671;
+  padding-right: 5px;
+}
+  .facilitiesBoxes{
+  display: flex;
+  gap: 10px;
+}
+.facilitiesBox{
+  display: inline-flex;
+  height: 33px;
+  padding: 8px 8px 8px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 1px solid #D1B671;
+}

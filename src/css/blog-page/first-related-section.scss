@@ -1,0 +1,35 @@
+.firstRelatedBox{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 30px;
+  width: 580px;
+}
+.firstRelatedSection{
+  display: flex;
+  gap: 30px;
+}
+#firstBigBox{
+  width: 387px;
+  height: 259px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+#firstBigBox img{
+  width: 387px;
+  height: 259px;
+  flex-shrink: 0;
+  border-radius: 15px;
+}
+.firstRelatedColBoxes{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.firstRelatedBox img{
+  width: 183px;
+  height: 122px;
+  flex-shrink: 0;
+}

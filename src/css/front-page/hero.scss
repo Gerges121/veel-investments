@@ -1,0 +1,184 @@
+
+.hero {
+    background-image: url("../../img/herobackground.webp");
+    background-size: cover;
+    height: 756px;
+    width: 100%;
+    position: relative;
+  }
+
+  .heroH1 {
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+
+  .HeroForm {
+    display: flex;
+    width: 911px;
+    height: 90px;
+    padding: 21px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+  }
+
+  .HeroParagraph {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.5px;
+  }
+
+  .veelHeroContent {
+    height: 756px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .HeroForm form {
+    display: flex;
+    width: 911px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+  }
+
+  .veelHeroSearchBar {
+    display: flex;
+    align-items: center;
+    padding: 10px 6px;
+    position: relative;
+
+  }
+
+  .veelHeroSearchBar svg {
+    position: absolute;
+    left: 20px;
+  }
+
+  #search {
+    width: 313px;
+    height: 38px;
+    border: 2px solid #90a6ec;
+    border-radius: 5px;
+  }
+
+  .heroDropdown {
+    width: 133px;
+    height: 42px;
+    border: 2px solid #90a6ec;
+    border-radius: 5px;
+
+  }
+
+  .veelHeroSearchButton button {
+    width: 120px;
+    height: 42px;
+    margin-right: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+  }
+
+  .veelSocialAndArrow {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 15%;
+    right: 5%;
+  }
+
+
+
+  .arrow span {
+    color: white;
+
+  }
+
+  .arrow {
+    width: 45px;
+    height: 45px;
+    background-color: #D1B671;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+
+
+@media screen and (max-width: 768px) {
+.heroH1{
+  color: #FFF;
+  font-family: Almarai;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+}
+  .HeroParagraph{
+    padding-bottom: 70px;
+  }
+
+  .HeroForm form{
+    display: flex;
+    width: 361px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #FFF;
+    padding: 30px 0;
+
+  }
+.veelHeroDropdown{
+
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.heroDropdown{
+  width: 318px;
+}
+
+.veelHeroSearchButton button{
+  display: flex;
+  width: 201px;
+  height: 42px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  background: #231F20;
+}
+
+.veelHeroSearchButton{
+  padding: 30px ;
+}
+.veelSocialAndArrow{
+  margin-top: 30px;
+}
+.veelHeroContent{
+  width: 393px;
+  height: 640px;
+  flex-shrink: 0;
+}
+}

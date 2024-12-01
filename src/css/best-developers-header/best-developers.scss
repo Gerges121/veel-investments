@@ -1,0 +1,18 @@
+.bestDevelopersGallery{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(4,1fr);
+}
+.bestDevelopersImg{
+  border: #F8F5ED solid 10px;
+  width: 150px;
+  height: 150px;
+  max-width: 150px;
+  max-height: 150px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  border-radius: 50%;
+  flex: none;
+  margin-left: 20px;
+}

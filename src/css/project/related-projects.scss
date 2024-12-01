@@ -1,0 +1,15 @@
+.zedRelatedProjectsBoxes{
+  display: flex;
+  gap: 10px;
+}
+.zedRelatedProjectsContent h2{
+  color: #000;
+  text-align: start;
+  font-family: Almarai;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  border-right: 6px solid #D1B671 ;
+  padding-right: 10px;
+}

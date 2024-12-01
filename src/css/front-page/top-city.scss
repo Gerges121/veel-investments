@@ -1,0 +1,229 @@
+.famousCity{
+    width: 50%;
+    height: 650px;
+    background-color: #f3ecdc;
+}
+.famousCitySection{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.topFrame .div-wrapper:hover{
+  border-radius: 20px;
+  border: 2px solid #D1B671;
+  color: black;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+
+.famousSubHeading{
+  display: grid;
+  justify-content: start;
+  align-items: center;
+  width: 20%;
+  margin-right: 20px;
+
+}
+.topSubHeadingParagraph p{
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.topRectangle {
+  width: 6px;
+  height: 32px;
+  flex-shrink: 0;
+  background: #D1B671;
+}
+
+.famousCityHeader{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-right: 20px;
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 100% */
+  letter-spacing: 0.5px;
+}
+
+.topImg{
+  width: 285px;
+  height: 191px;
+  flex-shrink: 0;
+  display: grid;
+  border-radius: 15px;
+}
+.topImage{
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  gap: 20px;
+  height: 350px;
+  display: flex;
+  grid-template-columns: auto auto;
+  justify-content: start;
+  align-content: start;
+  border-radius: 50%;
+
+}
+
+.topImgContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  height: 125px;
+}
+.topImgContent h4{
+  margin: 0;
+}
+
+.topRectangle1{
+  background: url("../../img/img1.webp") no-repeat center center / cover, lightgray;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+.topPhoneWa{
+  display: flex;
+  justify-content: end;
+}
+.veelTopPrice{
+  display: flex;
+  gap: 10px;
+  border-radius: 5px;
+  background: #FFF;
+  width: 109px;
+  height: 28px;
+  align-content: center;
+  justify-content: center;
+}
+
+.topFrame {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+  position: relative;
+  padding: 20px 0;
+  height: 100px;
+}
+
+.topFrame .div-wrapper {
+  border: 1px solid;
+  display: flex;
+  width: 139px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  border-radius: 20px;
+  border-color: #d1b671;
+  color: #D8C18B;
+}
+
+.topFrame .text-wrapper {
+  font-weight: 400;
+  color: #d8c18b;
+  position: relative;
+  width: fit-content;
+  font-size: 14px;
+  text-align: left;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  direction: rtl;
+}
+
+
+
+
+.topLine{
+  background-color: black;
+  width: 177px;
+  height: 1px;
+}
+.topShowAll{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 30px;
+  width: 100%;
+}
+.topShow{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.cta{
+  position: absolute;
+}
+
+.ctaStyle{
+  width: max-content;
+  border: none;
+  position: relative;
+  right: 70px;
+  top: 5px;
+}
+
+.priceBox{
+  position: absolute;
+top: 40%;
+  margin-right: 15px;
+  width: 109px;
+  height: 28px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.topImgGallery{
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+  overflow: hidden;
+}
+.veelCursors{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  position: absolute;
+  width: 49%;
+  height: 250px;
+}
+.topBox{
+  width: 34px;
+  height: 81px;
+  background-color: #d1b671;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topLc{
+  width: 34px;
+  height: 81px;
+  background-color: #6A96D2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

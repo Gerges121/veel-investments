@@ -1,0 +1,43 @@
+.phoneWaZoomCta{
+  display: flex;
+  gap: 10px;
+}
+.phoneCallZed{
+  display: inline-flex;
+  width: 227.479px;
+
+  padding: 6.75px 18px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+  background: #D1B671;
+  gap: 10px;
+  color: white;
+
+}
+
+.whatsappZed{
+  display: inline-flex;
+  width: 227.479px;
+
+  padding: 6.75px 18px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+  background: #00DE3E;
+  gap: 10px;
+  color: white;
+}
+
+.zoomZed{
+  display: flex;
+  width: 227.479px;
+  padding: 7.297px 19.46px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9.73px;
+  background: #357CDC;
+  gap: 10px;
+  color: white;
+
+}

@@ -1,0 +1,54 @@
+.veelCopyRights{
+  background-color: #D0B872 ;
+  width: 100% ;
+}
+.copyRightsContent{
+    width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.copyRightsleftSection{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px ;
+}
+.copyRightsleftSection a{
+  text-decoration: none;
+  color: #231F20;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 150% */
+}
+.copyRightSection{
+  color: #231F20;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 150% */
+}
+@media screen and (max-width: 768px){
+  .veelCopyRights{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+  }
+  .copyRightsContent{
+    display: flex;
+    flex-direction: column-reverse;
+
+    background-color: black;
+    color: white;
+  }
+  .copyRightSection{
+    color: white;
+  }
+  .copyRightsleftSection a{
+    color: white;
+  }
+}

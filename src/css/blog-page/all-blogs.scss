@@ -1,0 +1,20 @@
+.secondRelatedBox{
+display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+width: max-content;
+}
+.secondRelatedBoxContent {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  width: 276px;
+}
+.secondRelatedBlogs{
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  gap: 30px;
+}

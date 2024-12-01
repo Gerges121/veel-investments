@@ -1,0 +1,246 @@
+.veelLatestProjects{
+  width: 54%;
+  display: flex;
+  flex-direction: column;
+}
+.latestProjectsSection{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.latestSubHeadingParagraph p{
+  margin: 0;
+}
+.veelLatestSubHeading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+
+}
+.latestShowAll{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+.latestRectangle {
+  width: 6px;
+  height: 32px;
+  flex-shrink: 0;
+  background: #D1B671;
+}
+.latestProjectHeader{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 100% */
+  letter-spacing: 0.5px;
+}
+
+.latestImg{
+  width: 285px;
+  height: 191px;
+  flex-shrink: 0;
+  display: grid;
+  border-radius: 15px;
+}
+.LatestImage{
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  gap: 20px;
+  height: 350px;
+  display: flex;
+  grid-template-columns: auto auto;
+  justify-content: start;
+  align-content: start;
+}
+.LatestImgGallery{
+  width: 90%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+  overflow: hidden;
+
+}
+.imgLatestContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  height: 125px;
+}
+
+.CTA iframe{
+  border: none;
+  width: 60px;
+  position: relative;
+  top: 30px;
+}
+
+.CTA{
+  width: max-content;
+}
+body{
+  display: flex;
+  gap: 20px;
+}
+.latestRectangle1{
+  background: url("../../img/img1.webp") no-repeat center center / cover, lightgray;
+  border-radius: 15px;
+
+}
+.rectangle2{
+  background: url("../../img/img2.webp") no-repeat center center / cover, lightgray;
+  border-radius: 15px;
+
+}
+.rectangle3{
+  background: url("../../img/im3.webp") no-repeat center center / cover, lightgray;
+  border-radius: 15px;
+
+}
+.rectangle4{
+  background: url("../../img/img1.webp") no-repeat center center / cover, lightgray;
+  border-radius: 15px;
+
+}
+.veelLatestCursors{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  position: absolute;
+  width: 49%;
+  height: 250px;
+}
+
+
+.latest-right-arrow{
+  width: 34px;
+  height: 81px;
+  flex-shrink: 0;
+  background: #D1B671;
+  border: none;
+  cursor: pointer;
+
+}
+.latest-left-arrow{
+  width: 34px;
+  height: 81px;
+  flex-shrink: 0;
+  opacity: 0.6;
+  background: #6A96D2;
+  border: none;
+  cursor: pointer;
+}
+.goldenLatestLine{
+  width: 692.667px;
+  height: 3.932px;
+  flex-shrink: 0;
+  background: #D1B671;
+}
+.greyLatestLine{
+  width: 50%;
+  height: 1.333px;
+  flex-shrink: 0;
+  background: #F6FAFF;
+  position: absolute;
+  z-index: -1;
+}
+.veelLatestLines{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 425px) {
+
+  .LatestImgGallery{
+    display: flex;
+    gap: 70px;
+    justify-content: start;
+    overflow: hidden;
+    width: 400px;
+    margin-top: 20px;
+    position: relative;
+  }
+  .CTA{
+    display: none;
+  }
+  .veelLatestCursors{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .greyLatestLine {
+    width: 50%;
+  }
+  .goldenLatestLine{
+    width: 304px;
+
+  }
+  .veelLatestLines{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+  }
+  .latestImg div{
+    border-radius: 15px;
+  }
+  }
+@media screen and (min-width: 1024px) and (max-width: 1440px){
+  .veelLatestCursors{
+    width: 80%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  .veelLatestCursors{
+    width: 90%;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 768px){
+  .veelLatestCursors{
+    width: 100%;
+  }
+  .LatestImgGallery{
+    width: 600px;
+    display: flex;
+    align-content: center;
+    justify-content: start;
+    overflow: hidden;
+  }
+  .LatestImage{
+    width: 1000px;
+  }
+  .CTA{
+    display: none;
+  }
+  .veelLatestSubHeading{
+    width: 410px;
+  }
+  .goldenLatestLine{
+    width: 440px;
+  }
+  .greyLatestLine{
+    width: 50%;
+  }
+  .veelLatestLines{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 380px;
+  }
+}
